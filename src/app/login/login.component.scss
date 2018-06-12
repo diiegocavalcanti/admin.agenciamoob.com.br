@@ -1,0 +1,99 @@
+$topnav-background-color: #F6F6F6;
+:host {
+    display: block;
+}
+
+.login-container {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    -moz-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+}
+
+.login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    // background: $topnav-background-color;
+    background-image: url(assets/images/bg-login.svg);
+    text-align: center;
+    color: #5822DC;
+    padding: 3em;
+    .col-lg-4 {
+        padding: 0;
+    }
+    .input-lg {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 0;
+    }
+    .input-underline {
+        background: 0 0;
+        border: none;
+        box-shadow: none;
+        border-bottom: 2px solid rgba(88, 34, 120, 0.5);
+        color: #5822DC;
+        border-radius: 0;
+    }
+    .input-underline:focus {
+        border-bottom: 2px solid #5822DC;
+        box-shadow: none;
+    }
+    .rounded-btn {
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        color: rgba(88, 34, 120, 0.8);
+        background: #FFF;
+        border: 2px solid rgba(88, 34, 120, 0.8);
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0 25px;
+    }
+    .rounded-btn:hover,
+    .rounded-btn:focus,
+    .rounded-btn:active,
+    .rounded-btn:visited {
+        color: rgba(88, 34, 120, 1);
+        border: 2px solid rgba(88, 34, 120, 1);
+        outline: none;
+    }
+    h1 {
+        font-weight: 300;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        small {
+            color: rgba(88, 34, 120, 0.7);
+        }
+    }
+    .form-group {
+        padding: 8px 0;
+        input::-webkit-input-placeholder {
+            color: rgba(88, 34, 120, 0.6) !important;
+        }
+        input:-moz-placeholder {
+            /* Firefox 18- */
+            color: rgba(88, 34, 120, 0.6) !important;
+        }
+        input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: rgba(88, 34, 120, 0.6) !important;
+        }
+        input:-ms-input-placeholder {
+            color: rgba(88, 34, 120, 0.6) !important;
+        }
+    }
+    .form-content {
+        padding: 40px 0;
+    }
+    .login-img {
+        text-align: center
+    }
+}
