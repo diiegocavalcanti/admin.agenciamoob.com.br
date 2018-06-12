@@ -1,9 +1,9 @@
-$topnav-background-color: #3F2D94;
+$topnav-background-color: #F6F6F6;
 .sidebar {
     border-radius: 0;
     position: fixed;
     z-index: 1000;
-    top: 56px;
+    top: 66px;
     left: 235px;
     width: 235px;
     margin-left: -235px;
@@ -22,10 +22,11 @@ $topnav-background-color: #3F2D94;
     // border-top: 1px solid rgba(255,255,255,0.3);
     .list-group {
         a.list-group-item {
+            border-bottom: 1px solid #D2D0D0;
             background: $topnav-background-color;
             border: 0;
             border-radius: 0;
-            color: #FFF;
+            color: #5822DC;
             text-decoration: none;
             .fa {
                 margin-right: 10px;
@@ -33,11 +34,13 @@ $topnav-background-color: #3F2D94;
         }
         a:hover {
             background: darken($topnav-background-color, 5%);
-            color: #00FEB6;
+            color: #3F2D94;
+            font-weight: bold;
         }
         a.router-link-active {
             background: darken($topnav-background-color, 5%);
-            color: #00FEB6;
+            color: #3F2D94;
+            font-weight: bold;
         }
         .header-fields {
             padding-top: 10px;
@@ -75,7 +78,7 @@ $topnav-background-color: #3F2D94;
             }
         }
         .panel-title:hover {
-            background: darken($topnav-background-color, 5%);
+            background: #3F2D94;
         }
         .panel-collapse {
             border-radious: 0;
@@ -93,7 +96,7 @@ $topnav-background-color: #3F2D94;
                     }
                 }
                 .list-group-item:hover {
-                    background: darken($topnav-background-color, 5%);
+                    background: #3F2D94;
                 }
             }
         }

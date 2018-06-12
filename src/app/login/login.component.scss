@@ -3,13 +3,18 @@ $topnav-background-color: #F6F6F6;
     display: block;
 }
 
+.login-side {
+    background-color: #FFF;
+    height: 100%;
+}
+
 .login-container {
     background-color: #FFF;
     padding: 30px;
-    border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
-    -moz-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
-    box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    // border-radius: 25px;
+    // -webkit-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    // -moz-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    // box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
 }
 
 .login-page {
@@ -23,9 +28,11 @@ $topnav-background-color: #F6F6F6;
     background-image: url(assets/images/bg-login.svg);
     text-align: center;
     color: #5822DC;
-    padding: 3em;
     .col-lg-4 {
         padding: 0;
+    }
+    .row {
+        margin-right: 0px;
     }
     .input-lg {
         height: 46px;
