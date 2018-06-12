@@ -1,7 +1,7 @@
 <div class="login-page" [@routerTransition]>
     <div class="row justify-content-md-left h-100">
-        <div class="col-md-6 col-sm-4 col-xs-12 align-items-center">
-            <div class="login-side d-block ">
+        <div class="col-md-4 col-sm-4 col-xs-12 align-items-center">
+            <div class="login-side d-flex ">
                 <div class="login-container  align-middle">
                     <img src="assets/images/logo-login.svg" width="300px" class="login-img img-fluid" />
 
@@ -12,11 +12,11 @@
                             </div>
 
                             <div class="form-group">
-                                <input type="password" class="form-control input-underline input-lg" id="" placeholder="Password">
+                                <input type="password" class="form-control input-underline input-lg" id="" placeholder="Senha">
                             </div>
                         </div>
-                        <a class="btn rounded-btn" [routerLink]="['/dashboard']" (click)="onLoggedin()"> Login </a> &nbsp;
-                        <a class="btn rounded-btn" [routerLink]="['/signup']">Cadastro</a>
+                        <a class="btn btn-login" [routerLink]="['/dashboard']" (click)="onLoggedin()"> Entrar </a> &nbsp;
+                        <!-- <a class="btn rounded-btn" [routerLink]="['/signup']">Cadastro</a> -->
                     </form>
                 </div>
             </div>

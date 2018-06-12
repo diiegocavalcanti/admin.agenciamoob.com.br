@@ -6,6 +6,11 @@ $topnav-background-color: #F6F6F6;
 .login-side {
     background-color: #FFF;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    -moz-box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
+    box-shadow: 0px 0px 114px -36px rgba(0, 0, 0, 0.726);
 }
 
 .login-container {
@@ -25,7 +30,7 @@ $topnav-background-color: #F6F6F6;
     bottom: 0;
     overflow: auto;
     // background: $topnav-background-color;
-    background-image: url(assets/images/bg-login.svg);
+    background-image: url('/assets/images/bg-login.svg');
     text-align: center;
     color: #5822DC;
     .col-lg-4 {
@@ -45,7 +50,7 @@ $topnav-background-color: #F6F6F6;
         background: 0 0;
         border: none;
         box-shadow: none;
-        border-bottom: 2px solid rgba(88, 34, 120, 0.5);
+        border-bottom: 1px solid rgba(88, 34, 120, 0.5);
         color: #5822DC;
         border-radius: 0;
     }
@@ -53,24 +58,26 @@ $topnav-background-color: #F6F6F6;
         border-bottom: 2px solid #5822DC;
         box-shadow: none;
     }
-    .rounded-btn {
+    .btn-login {
         -webkit-border-radius: 50px;
         border-radius: 50px;
-        color: rgba(88, 34, 120, 0.8);
-        background: #FFF;
-        border: 2px solid rgba(88, 34, 120, 0.8);
+        color: #FFF;
+        background-color: #5822DC;
         font-size: 18px;
         line-height: 40px;
         padding: 0 25px;
     }
-    .rounded-btn:hover,
-    .rounded-btn:focus,
-    .rounded-btn:active,
-    .rounded-btn:visited {
-        color: rgba(88, 34, 120, 1);
-        border: 2px solid rgba(88, 34, 120, 1);
-        outline: none;
+    .btn-login:hover {
+        color: #FFF;;
+        background-color: #00FEB6;
     }
+    // .btn-login:focus,
+    // .btn-login:active,
+    // .btn-login:visited {
+    //     // color: #5822DC;;
+    //     // background-color: #00FEB6;
+    //     // outline: none;
+    // }
     h1 {
         font-weight: 300;
         margin-top: 20px;
